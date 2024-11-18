@@ -1,41 +1,19 @@
 public class Shrimp{
-    private String name;
-    private int legs;
-    private boolean isAlive;
+    // Create attributes for the Shrimp class
 
+    /* Give it:
+    name
+    number of legs
+    is it alive or not 
+    */
 
-    public Shrimp (String n, int l, boolean a){
-        this.name = n;
-        this.legs = l; //i am now realizing i do not know how many legs a shrimp has
-        this.isAlive = a;
-    }
+   // Write a constructor for the shrimp
 
-    String getName(){
-        return name;
-    }
+   //Write getters and setters
 
-    int getLegs(){
-        return legs;
-    }
+    // Write a throwShrimp method that prints out the message: "Shrimp has been thrown."
+   
 
-    boolean getAlive(){
-        return isAlive;
-    }
+   //Write a toString method
 
-    public void setName (String name){
-        this.name = name;
-    }
-
-    public void setLegs(int legs){
-        this.legs = legs;
-    }
-
-    public void throwShrimp(){
-        System.out.println("Shrimp thrown.");
-    }
-
-    @Override
-    public String toString() {
-        return name;
-    }
 }
